@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "production": "pm2 start ./bin/www --name todo"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "mongoose": "^5.8.0",
+    "morgan": "~1.9.1",
+    "node-restful": "^0.2.6"
+  }
+}
